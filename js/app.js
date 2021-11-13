@@ -13,8 +13,8 @@ function scrollhandler(section) {
 // build the nav
 const count = document.getElementsByTagName("section").length;
 for (let i = 1; i <= count; i++) {
-    var ul = document.getElementById("navbar__list");
-    var li = document.createElement("li");
+    let ul = document.getElementById("navbar__list");
+    let li = document.createElement("li");
     li.appendChild(document.createTextNode("section" + i));
     li.setAttribute("onclick", `scrollhandler('section'+${i})`);
     li.setAttribute("class", `section${i}`);

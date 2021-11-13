@@ -1,13 +1,12 @@
 # Landing Page Project
 
-## Table of Contents
+1- it is a display of 5 sections , first is a welcoming 
 
-* [Instructions](#instructions)
+2- it have nav bar with links every link navigate to a specific sections
 
-## Instructions
+3- nav only visible at the initial load and while scrolling
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+4- every sections turned active when it be in the viewport
 
-To get started, open `js/app.js` and start building out the app's functionality
+5- every link turned active when the related section is active
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
